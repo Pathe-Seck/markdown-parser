@@ -17,7 +17,6 @@ public class MarkdownParseTest {
         Path file = Path.of("test_file.md");
         String contents = Files.readString(file);
         String convertLinks = MarkdownParse.getLinks(contents).toString();
-        
 
     }
 }
