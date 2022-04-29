@@ -19,4 +19,14 @@ public class MarkdownParseTest {
         String convertLinks = MarkdownParse.getLinks(contents).toString();
 
     }
+
+    @Test 
+    public void file8Checker() throws IOException {
+        Path file = Path.of("test_file8.md");
+        String contents = Files.readString(file);
+        String convertLinks = MarkdownParse.getLinks(contents).toString();
+    }
+
+
+
 }
