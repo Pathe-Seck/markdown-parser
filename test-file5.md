@@ -1,7 +1,3 @@
 # title
 
-[stuff]
-
-paragraph
-
-(page.com)
+[image](https://ninjatune.net/images/artists/thundercat-main.jpg)
