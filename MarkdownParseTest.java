@@ -12,7 +12,7 @@ public class MarkdownParseTest {
         assertEquals(2, 1 + 1);
     }
 
-    /* @Test 
+    @Test 
     public void file1Checker() throws IOException {
         Path file = Path.of("test_file.md");
         String contents = Files.readString(file);
